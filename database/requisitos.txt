@@ -1,0 +1,62 @@
+#Tabela de Usuários
+id
+nome
+email
+senha
+token
+
+#Tabela de Respondentes
+id
+nome
+instituicao
+curso
+turma
+
+#Tablea de Questionarios
+id
+titulo
+descricao
+usuario_id
+data_ini
+data_fin
+pontuacao
+
+#Tabela de Categorias (Escolha única, multipla escolha, texto aberto)
+id
+nome
+descricao
+
+#Tabela de Questoes
+id
+titulo
+descricao
+categoria_id
+questionario_id
+pontucao
+resposta
+
+#Tabela de Opcoes
+id
+titulo
+descricao
+valor
+
+
+#Tabela de relação Questionario com Respondente [Vários repondentes respondem um ou mais questionarios] 
+id
+quetionario_id
+repondente_id
+pontucao_total
+respondido_em
+
+
+
+
+
+
+
+
+
+
+
+
